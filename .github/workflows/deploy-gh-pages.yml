@@ -22,7 +22,7 @@ jobs:
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
-          BUILD_FLAGS: --base-url $url
+          BUILD_FLAGS: --base-url ${{ env.url }}
           # Provide personal access token
           # TOKEN: ${{ secrets.TOKEN }}
           # Or if publishing to the same repo, use the automatic token
