@@ -39,9 +39,9 @@ animated_favicon = false
 # for all available variables.
 date_format = "%d %B %Y"
 # URL to issue tracker
-issues_url = "https://codeberg.org/daudix/duckquill/issues"
+issues_url = "https://github.com/AgustinRamiroDiaz/personalpage/issues"
 # URL to website's source code
-source_url = "https://codeberg.org/daudix/duckquill"
+source_url = "https://github.com/AgustinRamiroDiaz/personalpage"
 # Additional stylesheets; expects it to be in the ./static/ directory.
 # If you are using Sass it will be compiled there anyway.
 # stylesheets = [
