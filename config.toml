@@ -9,11 +9,8 @@ minify_html = true
 generate_feed = true
 feed_filename = "atom.xml"
 build_search_index = false
-author = "Duck Quack"
 
-taxonomies = [
-  {name = "tags", feed = true},
-]
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
 highlight_code = true
@@ -54,9 +51,9 @@ source_url = "https://github.com/AgustinRamiroDiaz/personalpage"
 show_feed = true
 # Links used in the nav
 links = [
-# {url = "https://codeberg.org/daudix/duckquill", name = "Repo"},
-#  {url = "$BASE_URL/demo", name = "Demo"},
-  {url = "$BASE_URL/blog", name = "Blog"},
+  # {url = "https://codeberg.org/daudix/duckquill", name = "Repo"},
+  #  {url = "$BASE_URL/demo", name = "Demo"},
+  { url = "$BASE_URL/blog", name = "Blog" },
 ]
 
 [extra.footer]
@@ -83,4 +80,4 @@ show_source = false
 # Your Mastodon API host; this should be where you have an account
 host = "mstdn.social"
 # Used to determine who the original poster is
-user = "Daudix"
+user = "agustinramirodiaz"
