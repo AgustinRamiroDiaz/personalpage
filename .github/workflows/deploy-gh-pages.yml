@@ -12,6 +12,8 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3.0.0
       - name: get url
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           url=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
           echo "url=$url" >> $GITHUB_ENV
