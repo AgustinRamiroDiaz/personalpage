@@ -5,6 +5,8 @@
 
 I am a software engineer with a passion for building things. I consider myself a fast learner and a team player. I am always looking for new challenges and opportunities to grow. I am a big fan of open source and I'm looking forward to working with Rust and Kubernetes.
 
+In my free time I like to do Acroyoga and Acroduo.
+
 ---
 
 # My experience
@@ -25,7 +27,7 @@ This involved primarily dockerization of the application, and then AWS resources
 
 ### Backend Software Developer at [Okteto](https://www.okteto.com/)
 
-I've worked on the backend team, developing a multi-service Helm chart using `Golang` and `Kubernetes`, and a CLI tool for interacting with the Okteto Platform.
+I've worked on the backend team, developing a multi-service [Helm](https://helm.sh/docs/topics/charts/) chart using `golang` and `Kubernetes`, and a CLI tool for interacting with the Okteto Platform.
 
 Our Backend API was made using GraphQL technology,
 
