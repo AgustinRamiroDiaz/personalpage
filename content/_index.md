@@ -3,9 +3,21 @@
 
 # Who am I?
 
-I am a software engineer with a passion for building things. I consider myself a fast learner and a team player. I am always looking for new challenges and opportunities to grow. I am a big fan of open source and I'm looking forward to working with Rust and Kubernetes.
+I am a software engineer with a passion for building things. I consider myself a fast learner and a team player. I am always looking for new challenges and opportunities to grow.
+
+I am a big fan of open source and I'm looking forward to working with Rust and Kubernetes.
 
 In my free time I like to do Acroyoga and Acroduo.
+
+---
+
+# Culture
+
+I believe that the best way to learn is by doing, and the best way to teach is by example. I have a strong belief in the power of collaboration and the importance of having a clear and open communication channel. I am always open to feedback and I believe that it is the best way to grow as a person and as a professional.
+
+I thrive for a healthy work-life balance and I try to maintain a positive attitude towards my work and my team. I am always looking for ways to improve myself and my skills, and I am always looking for new challenges and opportunities to grow.
+
+I've become a fan of asynchronous culture due to the flexibility and productivity it provides. I think it improves knowledge sharing, transparency and inclusivity.
 
 ---
 
