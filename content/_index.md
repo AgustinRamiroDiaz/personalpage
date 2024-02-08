@@ -31,7 +31,7 @@ I've become a fan of asynchronous culture due to the flexibility and productivit
 
 After gaining a lot of Cloud experience, I did a job for SZICOM to help them with the migration of their infrastructure to AWS.
 
-This involved primarily dockerization of the application, and then AWS resources like CodeBuild, CodeDeploy, CodePipeline, ECS, ECR.
+This involved primarily dockerization of the application, and then AWS resources like CodeBuild, CodePipeline, ECS, ECR.
 
 ## Developer at [Okteto](https://www.okteto.com/)
 
@@ -93,26 +93,23 @@ Since our area was in the middle of the production process, I had to interact wi
 I was able to keep up with a team of Senior Developers with over 10 years of experience at [SZICOM](https://www.szicom.com.ar/). We developed the web app "Distribution Management System" for Naturgy (MX).
 
 - Backend Development:
-  - C#
-  - Net Core
+  - `C#` with `.Net Core`
   - Entity Framework Core
   - SQL Server
   - Visual Studio
 - Frontend Development:
-  - Angular
-  - HTML + CSS
-  - TypeScript
-  - JavaScript
+  - `Angular` with `HTML` and `CSS`
+  - `typeScript` + `javaScript`
   - Visual Studio Code
 - Agile methodologies
 - Unit and Integration Testing
 - CI/CD
 - Design Patterns
+- Event systems architecture with `RabbitMQ`
 - Tools:
   - Atlassian Package (Jira, Confluence, BitBucket, SourceTree)
   - Jenkins
-  - RabbitMQ
-  - Robot Framework
+  - Robot Framework for UI end to end testing
 
 ## Educational Robotics Teacher
 
