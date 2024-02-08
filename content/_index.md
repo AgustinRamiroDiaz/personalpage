@@ -55,9 +55,9 @@ I've also improved my craft as a developer with `golang`, learning about its des
 
 Due to high demand, I moved to the infrastructure team to help with the development of the SaaS platform.
 
-We used `Terraform` and `Terraform Cloud` with a lot of custom pipelines done with GitOps.
+We used `Terraform` and `Terraform Cloud` with a lot of custom pipelines done with GitOps to manage 20+ customer environments. In this time I learned a lot about the infrastructure side of `Kubernetes` and explored some popular tooling like `Prometheus`, `Grafana`.
 
-I've also became comfortable working with `Google Cloud Platform` services (where we had all our infra) and got to explore a bit of `AWS` and `Azure`.
+I've also became very comfortable working with `Google Cloud Platform` services and got to explore a bit of `AWS` and `Azure`.
 
 #### Data Science member at [Héritas](https://heritas.com.ar/)
 
