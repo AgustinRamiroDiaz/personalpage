@@ -61,36 +61,28 @@ I've also became comfortable working with `Google Cloud Platform` services (wher
 
 > 2021-2022
 
-I had the incredible opportunity to work with a small and amazing team of data scientists, computer scientists and bioinformatics in a genetics based presicion medicine company.
+I had the opportunity to work with a small and amazing team of data scientists, computer scientists and bioinformatics in a genetics based presicion medicine company.
 
-Despite the name of the area and the specialties among the team, our responsibilites were many and diverse. We were like a swiss army knife, all tasks related to informatics were in our hands. That's why we were able to work with a lot of different technologies and languages such as:
+I got to work in many areas and with many tooling:
 
 - Sys Admin:
-  - Docker
+  - Containerization with `docker`
   - Server management (of our own servers with CentOS and Ubuntu)
   - Third party cloud service providers (Digital Ocean, Google Cloud)
 - Programming languages:
-  - Bash for running scripts and pipelines
-  - Python
-    - API connections
-      - We took advantage of JIRA's issues workflow and took it to its limits to manage our process workflow.
-    - Data analysis and manipulation with Pandas and Numpy
-  - R along with its web framework, Shiny
-    - We built all our main web apps using Shiny
-    - Many packages for data analysis such as purr, pelt, peshape.
-  - Latex and Markdown for writing and formatting documents
-- `MongoDB` as our Non relational databases:
-- Bioinformatics data representation
-  - bcl, fasta/fastq, bam/cram, vcf
-- Bioinformatics data processing manipulation
-  - Multiple command tools to aid our propietary pipeline
+  - Scripting in `bash`
+  - `python`
+    - We took advantage of JIRA's issues workflow and took it to its limits through the web API to manage our process workflow.
+    - Data analysis and manipulation with `pandas` and `numpy`
+  - `R`
+    - `shiny` web framework
+    - Packages for data analysis such as `purr`, `pelt`, `peshape`
+  - `Latex` and `markdown` for writing and formatting documents
+- `mongoDB` as our non relational database
 
-I also developed and matured other more broad capabilities:
+I learned a lot about genomics and the standards for handling the digital data associated with it, such as `bcl`, `fasta/fastq`, `bam/cram`, `vcf` and cli tools to manipulate them like the one from [Illumina](https://www.illumina.com/).
 
-- I learned a lot about genomics and the standards for handling the digital data associated with it.
-- Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
-- I had to read and understand the documentation of the tools we used to process the data.
-- I was in charge of the evolutionary maintainance of our apps, which was a complex task that nourished me in the process of learning and understanding. This sparked my interest in the micro-services architecture pattern which I'm still studying.
+Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
 
 ## Full Stack Web Developer at [SZICOM](https://www.szicom.com.ar/)
 
