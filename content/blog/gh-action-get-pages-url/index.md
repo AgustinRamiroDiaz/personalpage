@@ -14,6 +14,14 @@ id = ""
 
 # How to get the URL of a GitHub Pages site in a GitHub Action
 
+We can use GitHub's CLI in order to retrieve the Github Pages site with
+
+```sh
+gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url'
+```
+
+Luckily, `$GITHUB_REPOSITORY` is a predefined environment variable in GitHub Actions, so we can use it to get the URL of the GitHub Pages site.
+
 ```yml
 # this script is executed on every push to main
 on:
