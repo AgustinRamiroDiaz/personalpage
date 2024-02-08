@@ -39,15 +39,17 @@ This involved primarily dockerization of the application, and then AWS resources
 
 ### Backend Software Developer at [Okteto](https://www.okteto.com/)
 
-I've worked on the backend team, developing a multi-service [Helm](https://helm.sh/docs/topics/charts/) chart using `golang` and `Kubernetes`, and a CLI tool for interacting with the Okteto Platform.
+I've worked on the backend team
 
-Our Backend API was made using GraphQL technology,
+- developing a multi-service [Helm](https://helm.sh/docs/topics/charts/) chart using `golang` and `Kubernetes`
+- [okteto CLI tool](https://github.com/okteto/okteto/) for interacting with the Okteto Platform and the `Kubernetes` cluster.
+- backend API using `GraphQL`
 
-In this time, I've learned a lot about Kubernetes in depth, by managing and creating resources such as CRDs, Operators, Controllers and Webhooks.
+In this time, I've learned a lot about Kubernetes in depth, by managing and creating resources such as `CRDs`, `Operators`, `Controllers` and `Webhooks`.
 
 I've gotten to know better the container ecosystem by using `Docker` and `containerd` while working with `Buildkit` and `Kubernetes`.
 
-I've also become very proficient in Golang, and I've got to know multiple packages such as `client-go` and `cobra`.
+I've also improved my craft as a developer with `golang`, learning about its design patterns and the its "idiomatic" path. I've got to work with some famous packages such as `client-go`, `cobra` and `require`.
 
 ### Platform Infrastructure at [Okteto](https://www.okteto.com/)
 
