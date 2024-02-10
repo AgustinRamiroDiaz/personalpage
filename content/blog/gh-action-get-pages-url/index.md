@@ -1,5 +1,5 @@
 +++
-authors = ["Duck Quack"]
+authors = ["Agustín Ramiro Díaz"]
 title = "Dinamically get the URL of a GitHub Pages site in a GitHub Action"
 description = ""
 date = 2024-02-05
