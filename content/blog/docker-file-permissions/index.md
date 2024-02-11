@@ -15,7 +15,9 @@ id = ""
 
 I recently wanted to work in the [surrealdb](https://github.com/surrealdb/surrealdb) codebase, and by looking at its issues I've found [one related to file permissions in Docker](https://github.com/surrealdb/surrealdb/issues/3468). I remember having some vague knowledge about issues with file permissions before, and I thought it would be a good time to clear my doubts.
 
-# Understanding file permissions in Linux
+# Understanding file permissions
+
+## File permissions in Linux
 
 I won't go into too much detail because there are [great resources](https://linuxhandbook.com/linux-file-permissions/) that explain this better than me. Heres's a brief summary:
 
@@ -23,7 +25,7 @@ In Linux, file permissions are managed by the kernel. Each file has an owner, a 
 
 This permissions are usually handled with numbers or leters when running commands like `chmod`. The numbers are octal, and the letters are `r` for read, `w` for write, and `x` for execute. The numbers are calculated by adding the values of the permissions: 4 for read, 2 for write, and 1 for execute. For example, if we want to give read and write permissions to the owner, and read permissions to the group and everyone else, we would run `chmod 644 file.txt`. This would set the permissions to `-rw-r--r--`. We can also use the letters to set the permissions, for example, `chmod u+x file.txt` would add the execute permission to the owner.
 
-# Understanding file permissions in Docker containers
+## File permissions in Docker containers
 
 Docker containers are isolated environments, but they still run on top of the host's kernel. This means that the file permissions are managed by the host's kernel, and the container's kernel is not involved in this process. This is important to understand because it means that the file permissions inside the container are the same as the file permissions on the host. This can lead to issues for example when the container and the host have different users and groups.
 
