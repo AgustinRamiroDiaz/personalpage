@@ -6,7 +6,7 @@ date = 2024-02-10
 [taxonomies]
 tags = ["Docker", "Containers", "Linux"]
 [extra]
-toc = false
+toc = true
 [extra.comments]
 id = ""
 +++
@@ -148,4 +148,28 @@ If you've got experience with Docker, you might be thinking that it's weird that
 - usually, containers run with `root` user, giving the container full access over your files
 - when the containers run with a different user, they usually run with the default user that has the same uid and gid as the host's user (`1000:1000` in unix systems)
 
-I have pending to show my research into how I found out about this, but my findings is that the `surrealdb` container is running with user and group `65532:65532`. If we were to create another image and add `USER 1000` to the Dockerfile, we wouldn't need to specify the `--user` flag when running the container (if we are using the default `1000:1000` user in the host).
+The problem in the `surrealdb` image is that it doesn't follow the second point. We can check what user and group the container is running with by running the `id` command inside the container. We can do this by creating a new Dockerfile that copies the `id` command from a busybox image and running it inside the container.
+
+```Dockerfile
+# file name: Dockerfile
+FROM surrealdb/surrealdb:latest
+
+# Install shell and utilities, like the `id` command
+COPY --from=busybox:1.35.0-uclibc /bin/* /bin/
+```
+
+Then we build the image and run the `id` command inside the container with `-u` and `-g` flags to get the user and group.
+
+```sh
+$ docker build . -t surreal
+$ docker run -ti --entrypoint id surreal -u
+65532
+$ docker run -ti --entrypoint id surreal -g
+65532
+```
+
+The `surrealdb` container is running with user and group `65532:65532`. If we were to create another image and add `USER 1000` to the Dockerfile, we wouldn't need to specify the `--user` flag when running the container (if we are using the default `1000:1000` user in the host).
+
+# Conclusion
+
+In this post, we've learned about file permissions in Linux and Docker containers. We've seen how the file permissions are managed by the host's kernel, and how the container's user can affect the file permissions. We've also seen how to solve file permission issues by running the container with the correct user and group. I hope this post has been helpful, and that you now have a better understanding of file permissions in Docker containers
