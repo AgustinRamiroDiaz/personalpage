@@ -59,7 +59,7 @@ We used `Terraform` and `Terraform Cloud` with a lot of custom pipelines done wi
 
 I've also became very comfortable working with `Google Cloud Platform` services and got to explore a bit of `AWS` and `Azure`.
 
-#### Data Science member at [Héritas](https://heritas.com.ar/)
+## Data Science member at [Héritas](https://heritas.com.ar/)
 
 > 2021-2022
 
