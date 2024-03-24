@@ -1,7 +1,7 @@
 theme = "duckquill"
 
 title = "Agustín Ramiro Díaz"
-base_url = "https://agustinramirodiaz.github.io/personalpage"
+base_url = "https://agustinramirodiaz.github.io/"
 description = "Modern, pretty, and clean theme."
 
 compile_sass = true
@@ -52,6 +52,9 @@ links = [
   # {url = "https://codeberg.org/daudix/duckquill", name = "Repo"},
   #  {url = "$BASE_URL/demo", name = "Demo"},
   { url = "$BASE_URL/blog", name = "Blog" },
+  { url = "https://github.com/AgustinRamiroDiaz", name = "GitHub" },
+  { url = "https://www.linkedin.com/in/agust%C3%ADn-ramiro-d%C3%ADaz-bb0387184/", name = "LinkedIn" },
+  { url = "mailto:agustin.ramiro.diaz@gmail.com", name = "Contact" },
 ]
 
 [extra.footer]
