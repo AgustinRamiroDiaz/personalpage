@@ -65,7 +65,7 @@ show_copyright = false
 # Johnvertisement in the footer
 show_johnvert = false
 # "Powered by Zola and Duckquill" in footer
-show_powered_by = true
+show_powered_by = false
 # Link to website source
 show_source = false
 
