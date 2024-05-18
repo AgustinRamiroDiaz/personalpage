@@ -31,7 +31,7 @@ I've become a fan of asynchronous culture due to the flexibility and productivit
 
 After gaining a lot of Cloud experience I've worked with SZICOM to help them with the migration of their infrastructure to AWS.
 
-This involved primarily dockerization of their applications in `Dotnet` and `Angular`, and working with AWS resources like CodeBuild, CodePipeline, ECS, ECR, S3, Lambda, RDS, CloudWatch, CloudFormation, and IAM.
+This involved primarily dockerization of their applications in `Dotnet` and `Angular`, and working with AWS resources like CodeBuild, CodePipeline, ECS, ECR, S3, Lambda, RDS, CloudWatch, CloudFormation, CloudFront, and IAM.
 
 ## Developer at [Okteto](https://www.okteto.com/)
 
