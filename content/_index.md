@@ -37,11 +37,22 @@ This involved primarily dockerization of the application, and then AWS resources
 
 > 2022-2024
 
+### Platform Infrastructure at [Okteto](https://www.okteto.com/)
+
+Due to high demand, I moved to the infrastructure team to help with the development of the SaaS platform with:
+
+- `Terraform` and `Terraform Cloud` with a lot of custom pipelines done with GitOps to manage 20+ customer environments.
+- `Google Cloud Platform` as our cloud provider
+  - I was in charge of the Monitoring and Alerting project, where we used `AlertManager`, `Prometheus` and `Grafana`.
+
+In this time I've learned a lot about the infrastructure side of `Kubernetes` and explored some popular helm charts like `NGINX`. I've also became very comfortable working with `Google Cloud Platform` services and got to explore a bit of `AWS` and `Azure`.
+
 ### Backend Software Developer at [Okteto](https://www.okteto.com/)
 
 I've worked on the backend team
 
-- developing a multi-service [Helm](https://helm.sh/docs/topics/charts/) chart using `golang` and `Kubernetes`
+- developing a multi-service [Helm](https://helm.sh/docs/topics/charts/)
+- using `golang` to interact with `Kubernetes`
 - [okteto CLI tool](https://github.com/okteto/okteto/) for interacting with the Okteto Platform and the `Kubernetes` cluster.
 - backend API using `GraphQL`
 
@@ -50,14 +61,6 @@ In this time, I've learned a lot about Kubernetes in depth, by managing and crea
 I've gotten to know better the container ecosystem by using `Docker` and `containerd` while working with `Buildkit` and `Kubernetes`.
 
 I've also improved my craft as a developer with `golang`, learning about its design patterns and the its "idiomatic" path. I've got to work with some famous packages such as `client-go`, `cobra` and `require`.
-
-### Platform Infrastructure at [Okteto](https://www.okteto.com/)
-
-Due to high demand, I moved to the infrastructure team to help with the development of the SaaS platform.
-
-We used `Terraform` and `Terraform Cloud` with a lot of custom pipelines done with GitOps to manage 20+ customer environments. In this time I learned a lot about the infrastructure side of `Kubernetes` and explored some popular tooling like `Prometheus`, `Grafana`.
-
-I've also became very comfortable working with `Google Cloud Platform` services and got to explore a bit of `AWS` and `Azure`.
 
 ## Data Science member at [Héritas](https://heritas.com.ar/)
 
