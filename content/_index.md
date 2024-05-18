@@ -29,9 +29,9 @@ I've become a fan of asynchronous culture due to the flexibility and productivit
 
 ### Containerization and migration to AWS at [SZICOM](https://www.szicom.com.ar/)
 
-After gaining a lot of Cloud experience, I did a job for SZICOM to help them with the migration of their infrastructure to AWS.
+After gaining a lot of Cloud experience I've worked with SZICOM to help them with the migration of their infrastructure to AWS.
 
-This involved primarily dockerization of the application, and then AWS resources like CodeBuild, CodePipeline, ECS, ECR.
+This involved primarily dockerization of their applications in `Dotnet` and `Angular`, and working with AWS resources like CodeBuild, CodePipeline, ECS, ECR, S3, Lambda, RDS, CloudWatch, CloudFormation, and IAM.
 
 ## Developer at [Okteto](https://www.okteto.com/)
 
