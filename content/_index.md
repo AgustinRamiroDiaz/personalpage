@@ -5,8 +5,6 @@
 
 I am a software engineer with a passion for building things. I consider myself a fast learner and a team player. I am always looking for new challenges and opportunities to grow.
 
-I am a big fan of open source and I'm looking forward to working with Rust and Kubernetes.
-
 In my free time I like to do Acroyoga and Acroduo.
 
 ---
@@ -21,6 +19,16 @@ I've become a fan of asynchronous culture due to the flexibility and productivit
 
 ---
 
+# Main areas of Knowledge
+
+- Managing Kubernetes and integrating with its APIs
+- Infrastructure as Code with Terraform
+- Cloud Providers: Google Cloud Platform, AWS
+- DevOps practices with GitOps and CI/CD
+- Web Development
+  - Backend: Golang, C#, Python, Rust
+  - Frontend: Angular, HTML, CSS, JavaScript, TypeScript
+
 # My experience
 
 ## Freelance
@@ -29,7 +37,7 @@ I've become a fan of asynchronous culture due to the flexibility and productivit
 
 ### Containerization and migration to AWS at [SZICOM](https://www.szicom.com.ar/)
 
-After gaining a lot of Cloud experience I've worked with SZICOM to help them with the migration of their infrastructure to AWS.
+After gaining a lot of Cloud Infrastructure experience I've worked with SZICOM to help them with the migration of their infrastructure to `AWS`.
 
 This involved primarily dockerization of their applications in `Dotnet` and `Angular`, and working with AWS resources like CodeBuild, CodePipeline, ECS, ECR, S3, Lambda, RDS, CloudWatch, CloudFormation, CloudFront, and IAM.
 
@@ -41,7 +49,8 @@ This involved primarily dockerization of their applications in `Dotnet` and `Ang
 
 Due to high demand, I moved to the infrastructure team to help with the development of the SaaS platform with:
 
-- `Terraform` and `Terraform Cloud` with a lot of custom pipelines done with GitOps to manage 20+ customer environments.
+- `Terraform` and `Terraform Cloud` with custom pipelines done with GitOps to manage 20+ customer environments.
+  - each environment had its own resources, from `VPC` to `Kubernetes` cluster with Okteto installed.
 - `Google Cloud Platform` as our cloud provider
   - I was in charge of the Monitoring and Alerting project, where we used `AlertManager`, `Prometheus` and `Grafana`.
 
@@ -51,7 +60,7 @@ In this time I've learned a lot about the infrastructure side of `Kubernetes` an
 
 I've worked on the backend team
 
-- developing a multi-service [Helm](https://helm.sh/docs/topics/charts/)
+- developing a multi-service [Helm chart](https://helm.sh/docs/topics/charts/)
 - using `golang` to interact with `Kubernetes`
 - [okteto CLI tool](https://github.com/okteto/okteto/) for interacting with the Okteto Platform and the `Kubernetes` cluster.
 - backend API using `GraphQL`
@@ -60,7 +69,7 @@ In this time, I've learned a lot about Kubernetes in depth, by managing and crea
 
 I've gotten to know better the container ecosystem by using `Docker` and `containerd` while working with `Buildkit` and `Kubernetes`.
 
-I've also improved my craft as a developer with `golang`, learning about its design patterns and the its "idiomatic" path. I've got to work with some famous packages such as `client-go`, `cobra` and `require`.
+I've also improved my craft as a developer with `golang`, learning about its design patterns and the its "idiomatic" code. I've got to work with some famous packages such as `client-go`, `cobra` and `require`.
 
 ## Data Science member at [Héritas](https://heritas.com.ar/)
 
@@ -110,7 +119,6 @@ I was able to keep up with a team of Senior Developers with over 10 years of exp
 - Design Patterns
 - Event systems architecture with `RabbitMQ`
 - Tools:
-  - Atlassian Package (Jira, Confluence, BitBucket, SourceTree)
   - Jenkins
   - Robot Framework for UI end to end testing
 
@@ -124,6 +132,13 @@ I was a teacher at [Taller Big Bang](https://www.facebook.com/bigbangtaller/), w
   - LEGO WeDo (6-8 years)
   - LEGO Mindstorms (9-11 years)
 - Video Game creation
+
+---
+
+# Languages
+
+- English (Fluent)
+- Spanish (Native)
 
 ---
 
