@@ -31,6 +31,33 @@ I've become a fan of asynchronous culture due to the flexibility and productivit
 
 # My experience
 
+## Engineer at [YeagerAI](https://yeager.ai/) building [GenLayer](https://www.genlayer.com/)
+
+> 2024 - Present
+
+### @DevOps
+
+Automatic deployment of infrastructure using
+
+- `Ansible` + `GCP VMs` + `CloudFlare` + `docker compose`
+- `Terraform`, `Google Cloud Run`
+
+CI/CD pipelines with GitHub Actions
+
+### @Developer Experience
+
+`Python`, `VueJS`, `TypeScript`, `Solidity`
+
+- [GenLayer Studio](https://github.com/yeagerai/genlayer-studio)
+- [genlayer-js](https://github.com/yeagerai/genlayer-js)
+
+### dApps builder
+
+`NextJS`, `Typescript`
+
+- [Intelligent Oracle](https://www.intelligentoracle.com/)([repo](https://github.com/yeagerai/intelligent-oracle))
+- [dKOL](https://github.com/yeagerai/dKOL)
+
 ## Freelance
 
 > 2024
